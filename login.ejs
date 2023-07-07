@@ -1,0 +1,26 @@
+
+<%- include("partials/header"); -%>
+
+
+<form method="post" action="/login">
+    <div class="container-fluid">
+    <div class="form-group">
+      <label>Email address</label>
+      <input name="email" type="email" class="form-control" id="email" placeholder="Enter email">
+      <!--  -->
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+    <!-- <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div> -->
+    <div><button style="display:block" type="submit" class="btn btn-primary">Submit</button>
+        <small id="emailHelp" class="form-text text-muted float-right">Back to <a href="/">Sign Up</a></small></div>
+    </div>
+</form>  
+    <br><br><br> 
+
+<%- include("partials/footer"); -%>
